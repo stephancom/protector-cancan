@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'protector', github: 'stephancom/protector', branch: 'rails-5-1'
+
 gem 'rake'
 gem 'pry'
 gem 'rspec'
