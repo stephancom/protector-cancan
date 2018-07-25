@@ -6,8 +6,8 @@ require 'protector/cancan/version'
 Gem::Specification.new do |spec|
   spec.name          = "protector-cancan"
   spec.version       = Protector::Cancan::VERSION
-  spec.authors       = ["Boris Staal"]
-  spec.email         = ["boris@staal.io"]
+  spec.authors       = ["Boris Staal", "stephan.com"]
+  spec.email         = ["boris@staal.io", "stephan@stephan.com"]
   spec.description   = %q{Integration layer between Protector and CanCan}
   spec.summary       = spec.description
   spec.homepage      = "https://github.com/inossidabile/protector-cancan"
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "protector", ">= 0.5.3"
+  spec.add_dependency "protector", ">= 0.8.0"
   spec.add_dependency "cancancan"
   spec.add_dependency "activesupport"
 end
